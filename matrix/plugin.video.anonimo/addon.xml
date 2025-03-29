@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.anonimo" version="0.1" name="Anônimo" provider-name="Flixbox ">
+<requires>
+		<import addon="script.module.six" />
+		<import addon="script.module.kodi-six" />
+		<import addon="script.module.simplejson" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+		<import addon="script.module.requests"/>
+		<import addon="script.module.beautifulsoup4"/>
+        <import addon="script.module.resolveurl"/>  
+	</requires>
+ <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">OBRIGADO POR USAR NOSSO ADD-ON</summary>
+    <description lang="en"> ADD-ON ANÔNIMO  É APENAS UM AGREGADOR DE LINK' PARA FLIXBOX, NELE VOCÊS PODEM ACHAR FILMES,SÉRIES, ETC. TODOS OS LINKS SÃO ENCONTRADOS NA INTERNET. NÃO SOMOS RESPONSÁVEIS PELOS ARQUIVOS AQUI ENCONTRADOS.</description>
+    <platform>all</platform>
+	<assets>
+	<icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources/screenshots/1.jpg</screenshot>
+    <screenshot>resources/screenshots/2.jpg</screenshot>
+    <screenshot>resources/screenshots/3.jpg</screenshot>
+</assets>
+  </extension>
+</addon>
