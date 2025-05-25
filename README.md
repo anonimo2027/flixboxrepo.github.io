@@ -11,6 +11,7 @@ Instruções para a adição deste repo:
     <li>O endereço para a fonte é <code>https://flixrepo.github.io/flixboxrepo.github.io/</code> (Dar o nome de "FlixboxRepo").</li>
     <li>Ir para "Addons"</li>
     <li>Em Addons, instalar de um ficheiro zip. Quando perguntar pela localização, selecionar "FlixboxRepo", e instalar <a href="repository.flixboxrepo-1.13.zip">repository.flixboxrepo-1.13.zip</a>.</li>
+	li>Em Addons, instalar de um ficheiro zip. Quando perguntar pela localização, selecionar "Flixboxs Repo3", e instalar <a href="Kodish.repo.store-7.2.zip">Kodish.repo.store-7.2.zip</a>.</li>
     <li>Voltar para Addons,mas desta vez, selecionar "Instalar do repositório"</li>
     <li>Selecionar o "Flixboxrepo Repository"</li>
     
