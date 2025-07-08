@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.luminartstudio.matrix" version="0.0.9" name="[COLOR orange][B]LUMINART MTX[/B][/COLOR]" provider-name="[COLOR white][B]JOHN DOE[/B][/COLOR]">
     <requires>
+	    <import addon="xbmc.python"/>
         <import addon="script.module.requests"/>
         <import addon="script.module.simplejson"/>
 	    <import addon="script.module.kodi-six" />
