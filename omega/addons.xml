@@ -1,36 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="Kodish.repo.store" name="[B]Kodish Store Onimatrix DX[/B]" version="7.2" provider-name="Kodish Team">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-    <import addon="script.module.six" version="1.0.0"/>
-    <import addon="script.module.kodi-six" version="0.1.3.1"/>
-    <import addon="script.module.simplecache" version="1.0.0"/>
-    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
-    <import addon="script.module.requests" version="2.22.0+matrix.1"/>
-    <import addon="script.module.routing" version="0.2.3"/>
-    <import addon="script.module.simplejson"/>
-    <import addon="resource.language.pt_br"/>
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Kodish Store Onimatrix DX</summary>
-    <description lang="en">Addon Kodish Store Onimatrix DX a versÃ£o permite instalar addons da Kodish e seus Parceiros Agora com Suporte ao Kodi 20/21</description>
-    <platform>all</platform>
-    <forum></forum>
-	<assets>
-    <icon>icon.png</icon>
-	<fanart>fanart.jpg</fanart>
-    </assets>
-    <website></website>
-  </extension>
-</addon>
-
 <addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.1.2" provider-name="Philipp Temminghoff (phil65), sualfred, xulek, finkleandeinhorn">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
@@ -80,26 +49,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.iptvxc" name="[B][COLOR red]XCUI Streams[/B][/COLOR]" version="3.1.7" provider-name="[B][COLOR orange]Fire TV Guru[/B][/COLOR]">
-	<requires>
-		<import addon="script.module.requests" version="2.27.1"/>
-	</requires>
-  <extension point="xbmc.python.pluginsource"
-			library="default.py">
-		<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-	<summary lang="en">[COLOR red]An IPTV addon written to work with XC and XCUI for Kodi 19+[/COLOR] </summary>
-	<language>en</language>
-	<description lang="en">[COLOR red]This addon does not supply nor provide any illegal content[/COLOR]</description>
-	<platform>all</platform>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-	</assets>
-  </extension>
-</addon>
-
 <addon id="plugin.video.Magellan_Matrix" name="[COLOR lime]Magellan[/COLOR]" version="3.0.0" provider-name="[COLOR lime][B]Magellan[/B][/COLOR]">
 	<requires>
 		<import addon="script.module.six" />
@@ -129,66 +78,6 @@
 			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
-</addon>
-
-<addon id="plugin.video.pluginstreaming" version="1.1.3+matrix" name="[COLOR blue]Plugin[/COLOR][COLOR yellow]Streaming[/COLOR]" provider-name="Braz Junior">
-<requires>
-		<import addon="script.module.six" />
-		<import addon="script.module.kodi-six" />
-		<import addon="script.module.requests" optional="true"/>
-		<import addon="script.module.websocket" version="0.50.0"  optional="true"/>
-		<import addon="script.module.youtube.dl" optional="true"/>
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.dateutil" optional="true" />
-		<import addon="script.module.resolveurl" optional="true"/>
-		<import addon="script.module.urlresolver" optional="true"/>
-		<import addon="script.module.cloudscraper" optional="true"/>
-		<import addon="script.module.inputstreamhelper" optional="true"/>
-		<import addon="script.module.slproxy" optional="true"/>
-	</requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR yellow]OBRIGADO POR USAR NOSSO ADD-ON[/COLOR]</summary>
-    <description lang="en">[COLOR yellow] Add-on PluginStreaming  Ã© apenas um Agregador de link's  para midia center Kodi, Nele vocÃªs podem achar Filmes,SÃ©ries, Etc. todos os links sÃ£o encontrados na internet. NÃ£o somos responsÃ¡veis pelos arquivos aqui encontrados.[/COLOR]</description>
-    <news>
-[COLOR maroon]PROIBIDO USO DO ADD-ON EM OUTRA REPO SEM AUTORIZAÃ‡ÃƒO[/COLOR]
-</news>
-    <platform>all</platform>
-	<assets>
-	<icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-    <screenshot>resources/screenshots/1.jpg</screenshot>
-    <screenshot>resources/screenshots/2.jpg</screenshot>
-    <screenshot>resources/screenshots/3.jpg</screenshot>
-</assets>
-  </extension>
-</addon>
-
-<addon id="plugin.video.resolverurl_player" version="1.0.1" name="[B]RESOLVER PLAYER[/B]" provider-name="OnePlay Team">
-    <requires>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-		<import addon="script.module.requests"/>
-		<import addon="script.module.beautifulsoup4"/>
-        <import addon="script.module.resolveurl"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-		<summary>Resolver player Ã© um addon de reproduÃ§Ã£o de link</summary>
-		<description>Todos os videos sÃ£o de sites de terceiros, nÃ£o hospedamos conteudo</description>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <disclaimer>The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
 </addon>
 
 <addon id="repository.flixboxrepo" name="[COLOR lime]Flix[/COLOR][COLOR yellow]box[/COLOR] [COLORcyan]Repo[/COLOR]" version="1.13" provider-name="[COLOR lime]flix[/COLOR][COLOR yellow]box[/COLOR]">
